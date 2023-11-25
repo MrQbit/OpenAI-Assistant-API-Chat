@@ -4,12 +4,12 @@ const nextConfig = {
     return [
       {
         source: "/github",
-        destination: "https://github.com/admineral/OpenAI-Assistant-API-Chat",
+        destination: "",
         permanent: true,
       },
       {
         source: "/deploy",
-        destination: "https://open-ai-assistant-api-chat.vercel.app",
+        destination: "", // <- The path you want to redirect to in order to create a new agent (if you want to enable this feature,
         permanent: true,
       },
     ];
